@@ -1,0 +1,94 @@
+.rewardBlock {
+	width: 150px;
+	display: inline-block;
+	padding: 20px;
+}
+.rewardBlock  span{
+	font-size: 10px;
+}
+
+.appContent {
+	display: -webkit-flex;
+    display: flex;
+	justify-content: left;
+	-webkit-align-items: left;
+    align-items: left;
+	webkit-justify-content: left;
+	-webkit-flex-direction: row;
+    flex-direction: row;
+    
+}
+
+.schoolListRow {
+
+}
+
+.schoolListRow  td{
+	vertical-align: top;
+}
+
+tr:nth-child(even) {
+    background-color: #cccccc;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+	opacity: 0;
+  }
+  
+  to {
+	opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+	opacity: 0;
+  }
+  
+  to {
+	opacity: 1;
+  }
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.schoolList.animated {
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+/*
+.fade-enter {
+	opacity: 0;
+	transform: translateX(200em);
+	-webkit-transition: all .5s ease-in;
+	transition: all .5s ease-in;
+}
+
+.fade-enter.fade-enter-active {
+	opacity: 1;
+	transform: translateX(0em);
+}
+
+.fade-leave {
+	transform: translateX(-200em);
+	-webkit-transition: all .5s ease-in;
+	transition: all .5s ease-in;
+}
+
+.fade-leave.fade-leave-active {
+	opacity: 0;
+}*/
